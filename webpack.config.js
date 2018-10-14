@@ -41,9 +41,9 @@ const config = {
         }, {
             // Transpile ES2015 (aka ES6) to ES5.
 
-            exclude: [
-                new RegExp(`${__dirname}/node_modules/(?!js-utils)`)
-            ],
+            // exclude: [
+            //     new RegExp(`${__dirname}/node_modules/(?!js-utils)`)
+            // ],
             loader: 'babel-loader',
             options: {
                 presets: [
